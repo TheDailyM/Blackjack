@@ -30,13 +30,18 @@ public class MainJFrame extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         Stos_kart = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
+        karta_gracza1 = new javax.swing.JLabel();
+        karta_gracza2 = new javax.swing.JLabel();
+        karta_gracza3 = new javax.swing.JLabel();
+        karta_gracza4 = new javax.swing.JLabel();
+        karta_gracza5 = new javax.swing.JLabel();
+        karta_gracza6 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
+        karta_przeciwnika1 = new javax.swing.JLabel();
+        karta_przeciwnika2 = new javax.swing.JLabel();
+        karta_przeciwnika3 = new javax.swing.JLabel();
+        karta_przeciwnika4 = new javax.swing.JLabel();
+        karta_przeciwnika5 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
@@ -46,22 +51,32 @@ public class MainJFrame extends javax.swing.JFrame {
 
         Stos_kart.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/blackjack/images/placeholder_2.png"))); // NOI18N
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/blackjack/images/miejsce_na_karte.png"))); // NOI18N
+        karta_gracza1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/blackjack/images/miejsce_na_karte.png"))); // NOI18N
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/blackjack/images/miejsce_na_karte.png"))); // NOI18N
+        karta_gracza2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/blackjack/images/miejsce_na_karte.png"))); // NOI18N
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/blackjack/images/miejsce_na_karte.png"))); // NOI18N
+        karta_gracza3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/blackjack/images/miejsce_na_karte.png"))); // NOI18N
 
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/blackjack/images/miejsce_na_karte.png"))); // NOI18N
+        karta_gracza4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/blackjack/images/miejsce_na_karte.png"))); // NOI18N
 
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/blackjack/images/miejsce_na_karte.png"))); // NOI18N
+        karta_gracza5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/blackjack/images/miejsce_na_karte.png"))); // NOI18N
 
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/blackjack/images/miejsce_na_karte.png"))); // NOI18N
+        karta_gracza6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/blackjack/images/miejsce_na_karte.png"))); // NOI18N
 
         jButton1.setBackground(new java.awt.Color(204, 255, 204));
         jButton1.setFont(new java.awt.Font("Segoe UI Black", 3, 18)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 102, 102));
         jButton1.setText("P A S S");
+
+        karta_przeciwnika1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/blackjack/images/karty_przeciwnika.png"))); // NOI18N
+
+        karta_przeciwnika2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/blackjack/images/karty_przeciwnika.png"))); // NOI18N
+
+        karta_przeciwnika3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/blackjack/images/karty_przeciwnika.png"))); // NOI18N
+
+        karta_przeciwnika4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/blackjack/images/karty_przeciwnika.png"))); // NOI18N
+
+        karta_przeciwnika5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/blackjack/images/karty_przeciwnika.png"))); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -69,37 +84,55 @@ public class MainJFrame extends javax.swing.JFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel1)
-                .addGap(18, 18, 18)
-                .addComponent(jLabel2)
-                .addGap(18, 18, 18)
-                .addComponent(jLabel3)
-                .addGap(18, 18, 18)
-                .addComponent(jLabel4)
-                .addGap(18, 18, 18)
-                .addComponent(jLabel5)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(karta_gracza1)
+                        .addGap(18, 18, 18)
+                        .addComponent(karta_gracza2)
+                        .addGap(18, 18, 18)
+                        .addComponent(karta_gracza3)
+                        .addGap(18, 18, 18)
+                        .addComponent(karta_gracza4)
+                        .addGap(18, 18, 18)
+                        .addComponent(karta_gracza5))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(karta_przeciwnika1)
+                        .addGap(18, 18, 18)
+                        .addComponent(karta_przeciwnika2)
+                        .addGap(18, 18, 18)
+                        .addComponent(karta_przeciwnika3)
+                        .addGap(18, 18, 18)
+                        .addComponent(karta_przeciwnika4)
+                        .addGap(18, 18, 18)
+                        .addComponent(karta_przeciwnika5)))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(Stos_kart)
-                    .addComponent(jLabel6))
+                    .addComponent(karta_gracza6))
                 .addContainerGap(28, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(Stos_kart)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(Stos_kart)
+                    .addComponent(karta_przeciwnika1)
+                    .addComponent(karta_przeciwnika2)
+                    .addComponent(karta_przeciwnika3)
+                    .addComponent(karta_przeciwnika4)
+                    .addComponent(karta_przeciwnika5))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(59, 59, 59)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel1)
-                    .addComponent(jLabel2)
-                    .addComponent(jLabel3)
-                    .addComponent(jLabel4)
-                    .addComponent(jLabel5)
-                    .addComponent(jLabel6))
+                    .addComponent(karta_gracza1)
+                    .addComponent(karta_gracza2)
+                    .addComponent(karta_gracza3)
+                    .addComponent(karta_gracza4)
+                    .addComponent(karta_gracza5)
+                    .addComponent(karta_gracza6))
                 .addContainerGap(10, Short.MAX_VALUE))
         );
 
@@ -149,12 +182,17 @@ public class MainJFrame extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel Stos_kart;
     private javax.swing.JButton jButton1;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JLabel karta_gracza1;
+    private javax.swing.JLabel karta_gracza2;
+    private javax.swing.JLabel karta_gracza3;
+    private javax.swing.JLabel karta_gracza4;
+    private javax.swing.JLabel karta_gracza5;
+    private javax.swing.JLabel karta_gracza6;
+    private javax.swing.JLabel karta_przeciwnika1;
+    private javax.swing.JLabel karta_przeciwnika2;
+    private javax.swing.JLabel karta_przeciwnika3;
+    private javax.swing.JLabel karta_przeciwnika4;
+    private javax.swing.JLabel karta_przeciwnika5;
     // End of variables declaration//GEN-END:variables
 }
