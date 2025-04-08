@@ -112,6 +112,9 @@
               <Image iconType="3" name="/com/mycompany/blackjack/images/placeholder_2.png"/>
             </Property>
           </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Stos_kartMouseClicked"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JLabel" name="karta_gracza1">
           <Properties>
@@ -168,6 +171,9 @@
             </Property>
             <Property name="text" type="java.lang.String" value="P A S S"/>
           </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton1MouseClicked"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JLabel" name="karta_przeciwnika1">
           <Properties>

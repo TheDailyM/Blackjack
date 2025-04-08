@@ -50,6 +50,11 @@ public class MainJFrame extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(8, 94, 8));
 
         Stos_kart.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/blackjack/images/placeholder_2.png"))); // NOI18N
+        Stos_kart.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Stos_kartMouseClicked(evt);
+            }
+        });
 
         karta_gracza1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/blackjack/images/miejsce_na_karte.png"))); // NOI18N
 
@@ -67,6 +72,11 @@ public class MainJFrame extends javax.swing.JFrame {
         jButton1.setFont(new java.awt.Font("Segoe UI Black", 3, 18)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 102, 102));
         jButton1.setText("P A S S");
+        jButton1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jButton1MouseClicked(evt);
+            }
+        });
 
         karta_przeciwnika1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/blackjack/images/karty_przeciwnika.png"))); // NOI18N
 
@@ -140,6 +150,14 @@ public class MainJFrame extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void Stos_kartMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Stos_kartMouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Stos_kartMouseClicked
+
+    private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseClicked
+
+    }//GEN-LAST:event_jButton1MouseClicked
 
     /**
      * @param args the command line arguments
