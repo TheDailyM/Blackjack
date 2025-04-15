@@ -109,7 +109,7 @@
         <Component class="javax.swing.JLabel" name="Stos_kart">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/mycompany/blackjack/images/placeholder_2.png"/>
+              <Image iconType="3" name="/images/placeholder_2.png"/>
             </Property>
           </Properties>
           <Events>
@@ -119,42 +119,42 @@
         <Component class="javax.swing.JLabel" name="karta_gracza1">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/mycompany/blackjack/images/miejsce_na_karte.png"/>
+              <Image iconType="3" name="/images/miejsce_na_karte.png"/>
             </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="karta_gracza2">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/mycompany/blackjack/images/miejsce_na_karte.png"/>
+              <Image iconType="3" name="/images/miejsce_na_karte.png"/>
             </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="karta_gracza3">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/mycompany/blackjack/images/miejsce_na_karte.png"/>
+              <Image iconType="3" name="/images/miejsce_na_karte.png"/>
             </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="karta_gracza4">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/mycompany/blackjack/images/miejsce_na_karte.png"/>
+              <Image iconType="3" name="/images/miejsce_na_karte.png"/>
             </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="karta_gracza5">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/mycompany/blackjack/images/miejsce_na_karte.png"/>
+              <Image iconType="3" name="/images/miejsce_na_karte.png"/>
             </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="karta_gracza6">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/mycompany/blackjack/images/miejsce_na_karte.png"/>
+              <Image iconType="3" name="/images/miejsce_na_karte.png"/>
             </Property>
           </Properties>
         </Component>
@@ -178,35 +178,35 @@
         <Component class="javax.swing.JLabel" name="karta_przeciwnika1">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/mycompany/blackjack/images/karty_przeciwnika.png"/>
+              <Image iconType="3" name="/images/karty_przeciwnika.png"/>
             </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="karta_przeciwnika2">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/mycompany/blackjack/images/karty_przeciwnika.png"/>
+              <Image iconType="3" name="/images/karty_przeciwnika.png"/>
             </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="karta_przeciwnika3">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/mycompany/blackjack/images/karty_przeciwnika.png"/>
+              <Image iconType="3" name="/images/karty_przeciwnika.png"/>
             </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="karta_przeciwnika4">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/mycompany/blackjack/images/karty_przeciwnika.png"/>
+              <Image iconType="3" name="/images/karty_przeciwnika.png"/>
             </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="karta_przeciwnika5">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/mycompany/blackjack/images/karty_przeciwnika.png"/>
+              <Image iconType="3" name="/images/karty_przeciwnika.png"/>
             </Property>
           </Properties>
         </Component>

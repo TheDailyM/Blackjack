@@ -1,3 +1,7 @@
-com\mycompany\blackjack\MainJFrame.class
-com\mycompany\blackjack\Blackjack.class
+com\mycompany\blackjack\MainJFrame$2.class
 com\mycompany\blackjack\MainJFrame$1.class
+com\mycompany\blackjack\Deck.class
+com\mycompany\blackjack\DatabaseManager.class
+com\mycompany\blackjack\MainJFrame.class
+com\mycompany\blackjack\Opponent.class
+com\mycompany\blackjack\MainJFrame$3.class

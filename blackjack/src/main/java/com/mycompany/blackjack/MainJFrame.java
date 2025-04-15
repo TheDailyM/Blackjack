@@ -49,24 +49,24 @@ public class MainJFrame extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(8, 94, 8));
 
-        Stos_kart.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/blackjack/images/placeholder_2.png"))); // NOI18N
+        Stos_kart.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/placeholder_2.png"))); // NOI18N
         Stos_kart.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 Stos_kartMouseClicked(evt);
             }
         });
 
-        karta_gracza1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/blackjack/images/miejsce_na_karte.png"))); // NOI18N
+        karta_gracza1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/miejsce_na_karte.png"))); // NOI18N
 
-        karta_gracza2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/blackjack/images/miejsce_na_karte.png"))); // NOI18N
+        karta_gracza2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/miejsce_na_karte.png"))); // NOI18N
 
-        karta_gracza3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/blackjack/images/miejsce_na_karte.png"))); // NOI18N
+        karta_gracza3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/miejsce_na_karte.png"))); // NOI18N
 
-        karta_gracza4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/blackjack/images/miejsce_na_karte.png"))); // NOI18N
+        karta_gracza4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/miejsce_na_karte.png"))); // NOI18N
 
-        karta_gracza5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/blackjack/images/miejsce_na_karte.png"))); // NOI18N
+        karta_gracza5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/miejsce_na_karte.png"))); // NOI18N
 
-        karta_gracza6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/blackjack/images/miejsce_na_karte.png"))); // NOI18N
+        karta_gracza6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/miejsce_na_karte.png"))); // NOI18N
 
         jButton1.setBackground(new java.awt.Color(204, 255, 204));
         jButton1.setFont(new java.awt.Font("Segoe UI Black", 3, 18)); // NOI18N
@@ -78,15 +78,15 @@ public class MainJFrame extends javax.swing.JFrame {
             }
         });
 
-        karta_przeciwnika1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/blackjack/images/karty_przeciwnika.png"))); // NOI18N
+        karta_przeciwnika1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/karty_przeciwnika.png"))); // NOI18N
 
-        karta_przeciwnika2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/blackjack/images/karty_przeciwnika.png"))); // NOI18N
+        karta_przeciwnika2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/karty_przeciwnika.png"))); // NOI18N
 
-        karta_przeciwnika3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/blackjack/images/karty_przeciwnika.png"))); // NOI18N
+        karta_przeciwnika3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/karty_przeciwnika.png"))); // NOI18N
 
-        karta_przeciwnika4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/blackjack/images/karty_przeciwnika.png"))); // NOI18N
+        karta_przeciwnika4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/karty_przeciwnika.png"))); // NOI18N
 
-        karta_przeciwnika5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/mycompany/blackjack/images/karty_przeciwnika.png"))); // NOI18N
+        karta_przeciwnika5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/karty_przeciwnika.png"))); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
