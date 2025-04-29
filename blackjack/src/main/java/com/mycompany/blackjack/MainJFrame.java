@@ -4,6 +4,8 @@
  */
 package com.mycompany.blackjack;
 
+import java.util.ArrayList;
+import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 
 /**
@@ -11,12 +13,15 @@ import javax.swing.JFrame;
  * @author egzamin
  */
 public class MainJFrame extends javax.swing.JFrame {
+    Deck deck;
+        
 
     /**
      * Creates new form MainJFrame
      */
     public MainJFrame() {
         initComponents();
+        deck = new Deck();
     }
 
     /**
@@ -152,13 +157,36 @@ public class MainJFrame extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void Stos_kartMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Stos_kartMouseClicked
-        // TODO add your handling code here:
+
+        deck.drawCard();
+        
+        ArrayList<Integer> playersDeck = deck.getPlayersDeck();
+        ImageIcon image = new ImageIcon(getClass().getResource(getImageFromId(playersDeck.get(0))));
+        karta_gracza1.setIcon(image);
+        
     }//GEN-LAST:event_Stos_kartMouseClicked
 
     private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseClicked
 
     }//GEN-LAST:event_jButton1MouseClicked
-
+      
+    private String getImageFromId(int id){
+        
+        switch(id){
+            case 2:return "/images/karta2.png";
+            case 3:return "/images/karta3.png";
+            case 4:return "/images/karta4.png";
+            case 5:return "/images/karta5.png";
+            case 6:return "/images/karta6.png";
+            case 7:return "/images/karta7.png";
+            case 8:return "/images/karta8.png";
+            case 9:return "/images/karta9.png";
+            case 10:return "/images/karta10.png";
+            case 11:return "/images/kartaA.png";
+            default: return "/images/miejse_na_karte.png";
+            
+        }
+    }
     /**
      * @param args the command line arguments
      */

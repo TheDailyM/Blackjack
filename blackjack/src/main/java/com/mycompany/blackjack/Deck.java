@@ -18,7 +18,7 @@ public class Deck {
     
     public void initializeGame(){
     
-        int[] reserveDeckArray = {2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,10,10,10,10,11,11,11,11};
+        int[] reserveDeckArray = {1,2,3,4,5,6,7,8,9,10,11};
         
         for(int i=0;i<reserveDeckArray.length;i++){
             reserveDeck.add(reserveDeckArray[i]);
@@ -44,7 +44,6 @@ public class Deck {
             int randomCard = rand.nextInt(reserveDeck.size());
             playersDeck.add(reserveDeck.get(randomCard));
             reserveDeck.remove(randomCard);
-            updateVisuals();
         }else{
             return;
         }
@@ -60,7 +59,8 @@ public class Deck {
         
     }
     
-    public void updateVisuals(){
-        
+    public ArrayList<Integer> getPlayersDeck(){
+        return playersDeck;
     }
+
 }
