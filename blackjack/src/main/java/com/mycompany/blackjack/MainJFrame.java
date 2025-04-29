@@ -49,12 +49,11 @@ public class MainJFrame extends javax.swing.JFrame {
         karta_przeciwnika5 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel1.setBackground(new java.awt.Color(8, 94, 8));
 
-        Stos_kart.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/placeholder_2.png"))); // NOI18N
+        Stos_kart.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Talia_kart.png"))); // NOI18N
         Stos_kart.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 Stos_kartMouseClicked(evt);
