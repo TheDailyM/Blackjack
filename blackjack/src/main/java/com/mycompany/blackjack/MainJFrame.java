@@ -22,6 +22,7 @@ public class MainJFrame extends javax.swing.JFrame {
     public MainJFrame() {
         initComponents();
         deck = new Deck();
+        deck.initializeGame();
     }
 
     /**
@@ -160,8 +161,36 @@ public class MainJFrame extends javax.swing.JFrame {
         deck.drawCard();
         
         ArrayList<Integer> playersDeck = deck.getPlayersDeck();
-        ImageIcon image = new ImageIcon(getClass().getResource(getImageFromId(playersDeck.get(0))));
-        karta_gracza1.setIcon(image);
+        
+        if(playersDeck.size()>=1){
+            ImageIcon image1 = new ImageIcon(getClass().getResource(getImageFromId(playersDeck.get(0))));
+            karta_gracza1.setIcon(image1);
+        }
+        
+        if(playersDeck.size()>=2){
+            ImageIcon image2 = new ImageIcon(getClass().getResource(getImageFromId(playersDeck.get(1))));
+            karta_gracza2.setIcon(image2);
+        }
+        
+        if(playersDeck.size()>=3){
+            ImageIcon image3 = new ImageIcon(getClass().getResource(getImageFromId(playersDeck.get(2))));
+            karta_gracza3.setIcon(image3);
+        }
+        
+        if(playersDeck.size()>=4){
+            ImageIcon image4 = new ImageIcon(getClass().getResource(getImageFromId(playersDeck.get(3))));
+            karta_gracza4.setIcon(image4);
+        }
+        
+        if(playersDeck.size()>=5){
+            ImageIcon image5 = new ImageIcon(getClass().getResource(getImageFromId(playersDeck.get(4))));
+            karta_gracza5.setIcon(image5);
+        }
+        
+        if(playersDeck.size()>=6){
+            ImageIcon image6 = new ImageIcon(getClass().getResource(getImageFromId(playersDeck.get(5))));
+            karta_gracza6.setIcon(image6);
+        }
         
     }//GEN-LAST:event_Stos_kartMouseClicked
 
@@ -182,7 +211,7 @@ public class MainJFrame extends javax.swing.JFrame {
             case 9:return "/images/karta9.png";
             case 10:return "/images/karta10.png";
             case 11:return "/images/kartaA.png";
-            default: return "/images/miejse_na_karte.png";
+            default: return "/images/miejsce_na_karte.png";
             
         }
     }
@@ -218,7 +247,6 @@ public class MainJFrame extends javax.swing.JFrame {
             public void run() {
                 MainJFrame frame = new MainJFrame();
                 frame.setVisible(true);
-                frame.setExtendedState(MAXIMIZED_BOTH);
                 
             }
         });
