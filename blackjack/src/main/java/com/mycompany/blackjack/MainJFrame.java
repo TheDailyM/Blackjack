@@ -50,11 +50,16 @@ public class MainJFrame extends javax.swing.JFrame {
         karta_przeciwnika5 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        setMaximumSize(new java.awt.Dimension(880, 500));
+        setName("blackjack"); // NOI18N
+        setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel1.setBackground(new java.awt.Color(8, 94, 8));
 
         Stos_kart.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/Talia_kart.png"))); // NOI18N
+        Stos_kart.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         Stos_kart.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 Stos_kartMouseClicked(evt);
@@ -77,6 +82,7 @@ public class MainJFrame extends javax.swing.JFrame {
         jButton1.setFont(new java.awt.Font("Segoe UI Black", 3, 18)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 102, 102));
         jButton1.setText("P A S S");
+        jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jButton1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jButton1MouseClicked(evt);
